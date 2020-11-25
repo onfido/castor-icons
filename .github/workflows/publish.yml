@@ -1,0 +1,32 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - 'release/*.*.x'
+
+jobs:
+  publish:
+    name: Publish package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install Node dependencies
+        run: npm ci --no-audit --no-optional
+
+      - name: Build package
+        run: npm run build
+
+      - name: Publish to npm
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          package: ./dist/package.json
+          token: ${{ secrets.NPM_TOKEN }}
