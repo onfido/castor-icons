@@ -78,6 +78,8 @@ In the following example we assume that the version 1.1.0 is being released:
 
 3.  Create a new branch `release/1.1.x`, push to origin.
 
+4.  GitHub Actions will publish to registry automatically.
+
 ### Release a patch version (example)
 
 In the following example we assume that the version 1.0.1 is being released:
@@ -87,3 +89,5 @@ In the following example we assume that the version 1.0.1 is being released:
 2.  Cherry-pick required fixes from `main`.
 
 3.  Run `npm run release`, then follow instructions to push.
+
+4.  GitHub Actions will publish to registry automatically.
