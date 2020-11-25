@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["dist/tsx/*"],
+  "compilerOptions": {
+    "outDir": "dist/js",
+    "sourceMap": true
+  }
+}

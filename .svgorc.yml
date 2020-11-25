@@ -1,0 +1,21 @@
+multipass: true
+
+plugins:
+  - cleanupAttrs: true
+  - collapseGroups: true
+  - convertShapeToPath: true
+  - convertStyleToAttrs: true
+  - inlineStyles: true
+  - minifyStyles: true
+  - removeAttrs:
+      attrs:
+        - 'fill'
+        - 'stroke'
+  - removeComments: true
+  - removeDoctype: true
+  - removeEmptyAttrs: true
+  - removeEmptyContainers: true
+  - removeEmptyText: true
+  - removeMetadata: true
+  - removeViewBox: false
+  - sortAttrs: true

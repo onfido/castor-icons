@@ -1,0 +1,6 @@
+{
+  "svgo": false,
+  "memo": true,
+  "typescript": true,
+  "svgProps": { "focusable": false }
+}

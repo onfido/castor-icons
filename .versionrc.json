@@ -1,0 +1,6 @@
+{
+  "bumpFiles": ["package.json", "package-lock.json"],
+  "scripts": {
+    "postchangelog": "prettier CHANGELOG.md -w"
+  }
+}
