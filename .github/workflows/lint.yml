@@ -1,0 +1,25 @@
+name: Lint
+
+on: push
+
+jobs:
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # all history needed for commitlint to work
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install Node dependencies
+        run: npm ci --no-audit --no-optional
+
+      - name: Run commit linter
+        run: npm run lint:commit
