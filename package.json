@@ -1,6 +1,7 @@
 {
   "name": "@onfido/castor-icons",
   "version": "0.0.0",
+  "description": "Collection of icons for Castor.",
   "author": "Onfido",
   "license": "Apache-2.0",
   "repository": {
