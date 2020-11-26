@@ -9,7 +9,7 @@
   },
   "engines": {
     "node": ">= 14",
-    "yarn": "please-use-npm"
+    "yarn": "\n\n\u001b[1;31m[ERROR]\u001b[0;32m Please use npm instead!\u001b[0m\n\n"
   },
   "scripts": {
     "build": "ts-node scripts/build.ts",
