@@ -10,8 +10,7 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0 # all history needed for commitlint to work
+      - run: git fetch origin main # needed for commitlint
 
       - name: Setup Node
         uses: actions/setup-node@v1
