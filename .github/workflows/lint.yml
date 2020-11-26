@@ -28,9 +28,12 @@ jobs:
         uses: wearerequired/lint-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Enable and configure linters:
           eslint: true
           eslint_args: '--ignore-path .gitignore --max-warnings 0'
           eslint_extensions: 'ts'
           prettier: true
           prettier_args: '--ignore-path .gitignore'
           prettier_extensions: 'json,md,ts,yml'
+          # Additionally configure action:
+          commit_message: 'fix(style): issues with ${linter}'
