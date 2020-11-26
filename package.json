@@ -11,6 +11,7 @@
   "bugs": {
     "url": "https://github.com/onfido/castor-icons/issues"
   },
+  "homepage": "https://github.com/onfido/castor-icons",
   "engines": {
     "node": ">= 14",
     "yarn": "\n\n\u001b[1;31m[ERROR]\u001b[0;32m Please use npm instead!\u001b[0m\n\n"
