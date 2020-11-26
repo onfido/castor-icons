@@ -22,10 +22,7 @@ jobs:
         run: npm ci --no-audit --no-optional
 
       - name: Run commitlint
-        uses: wagoid/commitlint-github-action@v2
-        with:
-          configFile: .commitlintrc.json
-          failOnWarnings: true
+        run: npm run lint:commit
 
       - name: Run all other linters
         uses: wearerequired/lint-action@v1
