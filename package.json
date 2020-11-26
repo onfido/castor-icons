@@ -1,12 +1,17 @@
 {
   "name": "@onfido/castor-icons",
   "version": "0.0.0",
+  "description": "Collection of icons for Castor.",
   "author": "Onfido",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onfido/castor-icons.git"
+    "url": "https://github.com/onfido/castor-icons.git"
   },
+  "bugs": {
+    "url": "https://github.com/onfido/castor-icons/issues"
+  },
+  "homepage": "https://github.com/onfido/castor-icons",
   "engines": {
     "node": ">= 14",
     "yarn": "\n\n\u001b[1;31m[ERROR]\u001b[0;32m Please use npm instead!\u001b[0m\n\n"
