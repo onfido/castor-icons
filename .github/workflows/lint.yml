@@ -21,8 +21,11 @@ jobs:
       - name: Install Node dependencies
         run: npm ci --no-audit --no-optional
 
-      - name: Run commit linter
-        run: npm run lint:commit
+      - name: Run commitlint
+        uses: wagoid/commitlint-github-action@v2
+        with:
+          configFile: .commitlintrc.json
+          failOnWarnings: true
 
       - name: Run all other linters
         uses: wearerequired/lint-action@v1
