@@ -148,7 +148,16 @@ writeFileSync(
   JSON.stringify({
     ...Object.fromEntries(
       Object.entries(packageFileData).filter(([key]) =>
-        ['name', 'version', 'author', 'license', 'repository'].includes(key)
+        [
+          'name',
+          'version',
+          'description',
+          'author',
+          'license',
+          'repository',
+          'bugs',
+          'homepage',
+        ].includes(key)
       )
     ),
     main: 'js/index.js',
