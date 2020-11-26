@@ -39,4 +39,4 @@ jobs:
           prettier_args: '--ignore-path .gitignore'
           prettier_extensions: 'json,md,ts,yml'
           # Additionally configure action:
-          commit_message: 'fix(style): issues with ${linter}'
+          commit_message: 'style: fix code issues with ${linter}'
