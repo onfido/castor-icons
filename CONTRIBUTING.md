@@ -60,31 +60,33 @@ Simply run this script in the root to cut a new release:
 
 Optionally you can mark it as pre-release, e.g. `1.0.0-alpha.0`
 
-    npm run release --prerelease alpha
+    npm run release -- --prerelease alpha
 
 If you need to override SemVer behavior (not recommended):
 
-    npm run release --release-as 1.1.0
+    npm run release -- --release-as 1.1.0
 
 The last line of the script's log will give you the command you need to execute to push the commit and tag.
 
-### Release a major/minor version (example)
+### Release a major version (example)
 
-In the following example we assume that the version 1.1.0 is being released:
+In the following example we assume that the version 2.0.0 is being released:
 
 1.  Ensure your tree is clean and run `git checkout main && git pull`.
 
-2.  Run `npm run release`, then follow instructions to push.
+2.  Create a new branch `release/2.x.x`, push to origin.
 
-3.  Create a new branch `release/1.1.x`, push to origin.
+3.  Run `npm run release`, then follow instructions to push.
 
 4.  GitHub Actions will publish to registry automatically.
 
-### Release a patch version (example)
+5.  Create a pull request to merge the major version bump back to `main`.
+
+### Release a minor/patch version (example)
 
 In the following example we assume that the version 1.0.1 is being released:
 
-1.  Checkout branch `git checkout release/1.0.x`.
+1.  Checkout branch `git checkout release/1.x.x`.
 
 2.  Cherry-pick required fixes from `main`.
 
