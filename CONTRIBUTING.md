@@ -60,11 +60,11 @@ Simply run this script in the root to cut a new release:
 
 Optionally you can mark it as pre-release, e.g. `1.0.0-alpha.0`
 
-    npm run release --prerelease alpha
+    npm run release -- --prerelease alpha
 
 If you need to override SemVer behavior (not recommended):
 
-    npm run release --release-as 1.1.0
+    npm run release -- --release-as 1.1.0
 
 The last line of the script's log will give you the command you need to execute to push the commit and tag.
 
