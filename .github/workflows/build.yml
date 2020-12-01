@@ -6,7 +6,7 @@ on:
       - 'release/*.*.x' # already building package when publishing
 
 jobs:
-  publish:
+  build:
     name: Build package (test)
     runs-on: ubuntu-latest
 
