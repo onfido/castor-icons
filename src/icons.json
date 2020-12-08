@@ -19,6 +19,7 @@
   "chevron-left": "node_modules/boxicons/svg/regular/bx-chevron-left.svg",
   "chevron-right": "node_modules/boxicons/svg/regular/bx-chevron-right.svg",
   "chevron-up": "node_modules/boxicons/svg/regular/bx-chevron-up.svg",
+  "circle-solid": "src/svg/circle-solid.svg",
   "code-curly": "node_modules/boxicons/svg/regular/bx-code-curly.svg",
   "cog": "node_modules/boxicons/svg/regular/bx-cog.svg",
   "collapse": "node_modules/boxicons/svg/regular/bx-collapse.svg",
