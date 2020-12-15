@@ -20,8 +20,8 @@
     "build": "ts-node scripts/build.ts",
     "lint": "concurrently npm:lint:*",
     "lint:commit": "commitlint --from origin/main --to HEAD --verbose",
+    "lint:es": "eslint . --ignore-path .gitignore --max-warnings 0",
     "lint:prettier": "prettier . --check --ignore-path .gitignore",
-    "lint:ts": "eslint . --ignore-path .gitignore --max-warnings 0",
     "release": "HUSKY_SKIP_HOOKS=true standard-version"
   },
   "devDependencies": {
