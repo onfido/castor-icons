@@ -171,12 +171,15 @@ writeFileSync(
 
 /**
  * Generates:
+ * dist/CHANGELOG.md
  * dist/README.md
  *
- * Copies over the original `README.md` file.
+ * Copies over the original `CHANGELOG.md` and `README.md` files.
  */
 
-const readmeFileSrc = join(rootPath, 'README.md');
-const readmeFileDest = join(distDest, 'README.md');
+['CHANGELOG.md', 'README.md'].forEach((fileName) => {
+  const fileSrc = join(rootPath, fileName);
+  const fileDest = join(distDest, fileName);
 
-copyFileSync(readmeFileSrc, readmeFileDest);
+  copyFileSync(fileSrc, fileDest);
+});
