@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Castor Icons: Example</title>
+    <style>
+      body {
+        color: rgb(43, 45, 51);
+        font-family: 'Helvetica Neue', Tahoma, sans-serif;
+        font-size: 16px;
+        margin: 0;
+      }
+
+      section {
+        padding: 20px 24px;
+      }
+
+      section ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      section li {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(180, 186, 197);
+        display: inline-flex;
+        margin: 0 16px 16px 0;
+        padding: 12px 12px 40px;
+        position: relative;
+      }
+
+      .sprite {
+        position: absolute;
+      }
+
+      .box {
+        align-items: center;
+        background: rgb(233, 236, 240);
+        display: flex;
+        height: 128px;
+        justify-content: center;
+        width: 128px;
+      }
+
+      .name {
+        bottom: 8px;
+        font-size: 0.875rem;
+        left: 12px;
+        line-height: 1.5rem;
+        margin: 0;
+        overflow: hidden;
+        position: absolute;
+        right: 12px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <svg class="sprite" focusable="false" height="0" width="0">
+      {{#shapes}} {{{svg}}} {{/shapes}}
+    </svg>
+    <section>
+      <ul>
+        {{#shapes}}
+        <li title="{{name}}">
+          <div class="box">
+            <!-- {{name}} -->
+            <svg focusable="false" height="24" width="24">
+              <use href="#{{name}}"></use>
+            </svg>
+          </div>
+          <span class="name">{{name}}</span>
+        </li>
+        {{/shapes}}
+      </ul>
+    </section>
+  </body>
+</html>

@@ -24,6 +24,10 @@ const svgDest = join(distDest, 'svg');
 const tsxDest = join(distDest, 'tsx');
 !existsSync(tsxDest) && mkdirSync(tsxDest);
 
+const publicDest = join(rootPath, 'public');
+spawnSync('rm', ['-rf', publicDest], { shell: true });
+mkdirSync(publicDest);
+
 /**
  * Generates:
  * dist/svg/icon-*.svg
@@ -66,6 +70,10 @@ const spriter = new SVGSpriter({
       dest: svgDest,
       sprite: 'icons.svg',
       inline: true,
+      example: {
+        template: join(rootPath, 'templates', 'example.html'),
+        dest: join(publicDest, 'index.html'),
+      },
     } as SVGSpriter.DefsAndSymbolSpecificModeConfig,
   },
 });
