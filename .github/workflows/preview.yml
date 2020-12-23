@@ -1,0 +1,32 @@
+name: Preview
+
+on:
+  pull_request_target:
+    branches-ignore:
+      - 'release/*.*.x'
+
+jobs:
+  preview:
+    name: Preview example
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        with:
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+
+      - name: Deploy preview to Surge
+        uses: afc163/surge-preview@v1.5.5
+        id: preview_step
+        with:
+          surge_token: ${{ secrets.SURGE_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          build: |
+            npm ci --no-audit --no-optional
+            npm run build
+          dist: 'public'
+          failOnError: 'failed'
+
+      - name: Get preview URL
+        run: echo "url => ${{ steps.preview_step.outputs.preview_url }}"

@@ -18,6 +18,7 @@
   },
   "scripts": {
     "build": "ts-node scripts/build.ts",
+    "preview": "http-server -o",
     "lint": "concurrently npm:lint:*",
     "lint:commit": "commitlint --from origin/main --to HEAD --verbose",
     "lint:es": "eslint . --ignore-path .gitignore --max-warnings 0",
@@ -41,6 +42,7 @@
     "deasync": "^0.1.21",
     "eslint": "^7.14.0",
     "glob": "^7.1.6",
+    "http-server": "^0.12.3",
     "husky": "^4.3.0",
     "lint-staged": "^10.5.2",
     "prettier": "^2.2.0",

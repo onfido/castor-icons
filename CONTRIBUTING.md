@@ -48,6 +48,10 @@ You can build a package by running:
 
 It will execute the script `scripts/build.ts` with ts-node.
 
+It also generates an example of all icons rendered on HTML page, preview it with:
+
+    npm run preview
+
 ## Publish new version
 
 Only maintainers of this repository are allowed to make releases.
