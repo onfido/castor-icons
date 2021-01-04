@@ -22,6 +22,7 @@
     "lint": "concurrently npm:lint:*",
     "lint:commit": "commitlint --from origin/main --to HEAD --verbose",
     "lint:es": "eslint . --ignore-path .gitignore --max-warnings 0",
+    "lint:style": "stylelint '**/*.{css,html}' --ignore-path .gitignore --max-warnings 0",
     "lint:prettier": "prettier . --check --ignore-path .gitignore",
     "release": "HUSKY_SKIP_HOOKS=true standard-version"
   },
@@ -47,6 +48,8 @@
     "lint-staged": "^10.5.2",
     "prettier": "^2.2.0",
     "standard-version": "^9.0.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0",
     "svg-sprite": "^1.5.0",
     "svgo": "^1.3.2",
     "ts-node": "^9.0.0",
