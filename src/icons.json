@@ -66,6 +66,7 @@
   "notification": "node_modules/boxicons/svg/regular/bx-notification.svg",
   "paperclip": "node_modules/boxicons/svg/regular/bx-paperclip.svg",
   "passport": "src/svg/passport.svg",
+  "pause": "node_modules/boxicons/svg/regular/bx-pause.svg",
   "pencil": "node_modules/boxicons/svg/regular/bx-pencil.svg",
   "play": "node_modules/boxicons/svg/regular/bx-play.svg",
   "play-store": "node_modules/boxicons/svg/logos/bxl-play-store.svg",
