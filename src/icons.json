@@ -77,6 +77,7 @@
   "residence-permit": "src/svg/residence-permit.svg",
   "revision": "node_modules/boxicons/svg/regular/bx-revision.svg",
   "rotate-left": "node_modules/boxicons/svg/regular/bx-rotate-left.svg",
+  "rotate-right": "node_modules/boxicons/svg/regular/bx-rotate-right.svg",
   "scan": "node_modules/boxicons/svg/regular/bx-scan.svg",
   "screenshot": "node_modules/boxicons/svg/regular/bx-screenshot.svg",
   "search": "node_modules/boxicons/svg/regular/bx-search.svg",
