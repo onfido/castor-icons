@@ -8,6 +8,7 @@
   "block": "node_modules/boxicons/svg/regular/bx-block.svg",
   "book-bookmark": "node_modules/boxicons/svg/regular/bx-book-bookmark.svg",
   "book-open": "node_modules/boxicons/svg/regular/bx-book-open.svg",
+  "bounce": "src/svg/bounce.svg",
   "briefcase": "node_modules/boxicons/svg/regular/bx-briefcase-alt.svg",
   "bulb": "node_modules/boxicons/svg/regular/bx-bulb.svg",
   "camera": "node_modules/boxicons/svg/regular/bx-camera.svg",
