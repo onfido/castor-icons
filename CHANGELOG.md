@@ -24,3 +24,7 @@ All notable changes to this project will be documented in this file. See [standa
 ## 1.0.0 (2020-11-27)
 
 Initial release.
+
+### Bug Fixes
+
+- **package:** set license ([#2](https://github.com/onfido/castor-icons/issues/2)) ([c7d2037](https://github.com/onfido/castor-icons/commit/c7d2037987200a2b40c9d933231c01038108bfeb))
