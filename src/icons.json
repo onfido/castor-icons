@@ -72,6 +72,7 @@
   "plus": "node_modules/boxicons/svg/regular/bx-plus.svg",
   "pulse": "node_modules/boxicons/svg/regular/bx-pulse.svg",
   "question-mark": "node_modules/boxicons/svg/regular/bx-question-mark.svg",
+  "refresh": "node_modules/boxicons/svg/regular/bx-refresh.svg",
   "repost": "node_modules/boxicons/svg/regular/bx-repost.svg",
   "reset": "node_modules/boxicons/svg/regular/bx-reset.svg",
   "residence-permit": "src/svg/residence-permit.svg",
