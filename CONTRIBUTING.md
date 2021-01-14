@@ -111,7 +111,7 @@ git reset --hard
 # get all latest changes from remote
 git fetch --all --prune
 
-# checkout latest available version tag
+# checkout latest available version tag for v1.x.x
 git checkout v1.2.0
 
 # create release branch according to format
