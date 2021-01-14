@@ -58,6 +58,7 @@
   "link": "node_modules/boxicons/svg/regular/bx-link.svg",
   "link-external": "node_modules/boxicons/svg/regular/bx-link-external.svg",
   "linkedin": "node_modules/boxicons/svg/logos/bxl-linkedin.svg",
+  "list-ul": "node_modules/boxicons/svg/regular/bx-list-ul.svg",
   "lock": "node_modules/boxicons/svg/regular/bx-lock.svg",
   "lock-open": "node_modules/boxicons/svg/regular/bx-lock-open.svg",
   "map": "node_modules/boxicons/svg/regular/bx-map.svg",
