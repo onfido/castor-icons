@@ -44,11 +44,13 @@ Every SVG icon is also exported as React component, e.g. "passport":
 
 ```jsx
 import { IconPassport } from '@onfido/castor-icons';
+import React, { Fragment } from 'react';
 
 const Component = () => (
-  <>
+  <Fragment>
     <IconPassport />
-  </>
+    {/* ...anything else e.g. text */}
+  </Fragment>
 );
 ```
 
@@ -58,12 +60,13 @@ But if you prefer to use a sprite, feel free to (only once) inline it in your ap
 
 ```jsx
 import { Icons } from '@onfido/castor-icons';
+import React, { Fragment } from 'react';
 
 const App = () => (
-  <>
+  <Fragment>
     <Icons />
     {/* ...anything else e.g. app routes */}
-  </>
+  </Fragment>
 );
 ```
 
