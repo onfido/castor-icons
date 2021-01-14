@@ -90,7 +90,7 @@ git pull
 # use automated release script
 npm run release
 
-# push to trigger 'publish' GitHub Action
+# push to let newly created tag trigger 'publish' GitHub Action
 git push --follow-tags
 ```
 
