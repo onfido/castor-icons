@@ -72,7 +72,7 @@ If you need to override SemVer behavior (not recommended):
 
 The last line of the script's log will give you the command you need to execute to push the commit and tag.
 
-### Release latest version (example)
+### Release the latest version
 
 You will need `main` branch push permissions.
 
