@@ -117,7 +117,7 @@ git checkout v1.2.0
 # create release branch according to format
 git branch release/1.x.x
 
-# cherry-pick required fixes from `main`
+# cherry-pick required fixes from 'main'
 git cherry-pick c6da29b
 # pick appropriate commit hashes and repeat as needed
 
