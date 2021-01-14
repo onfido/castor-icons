@@ -29,6 +29,7 @@
   "crop": "node_modules/boxicons/svg/regular/bx-crop.svg",
   "diamond": "node_modules/boxicons/svg/regular/bx-diamond.svg",
   "directions": "node_modules/boxicons/svg/regular/bx-directions.svg",
+  "dots-horizontal-rounded": "node_modules/boxicons/svg/regular/bx-dots-horizontal-rounded.svg",
   "down-arrow-solid": "node_modules/boxicons/svg/solid/bxs-down-arrow.svg",
   "download": "node_modules/boxicons/svg/regular/bx-download.svg",
   "edit": "node_modules/boxicons/svg/regular/bx-edit.svg",
