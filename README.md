@@ -17,7 +17,7 @@ When referring to a fragment identifier for an icon to be used, a link is made t
 Straight after this you can easily add an icon to your HTML code, e.g. "passport" if copied to same `.castor-icons` directory:
 
 ```html
-<svg focusable="false" height="24" width="24">
+<svg fill="currentColor" focusable="false" height="24" width="24">
   <use href="/.castor-icons/icons.svg#passport"></use>
 </svg>
 ```
@@ -30,7 +30,7 @@ Import sprite source to be used when referring to a fragment identifier for icon
 import icons from '@onfido/castor-icons/svg/icons.svg';
 
 document.body.innerHTML = `
-  <svg focusable="false" height="24" width="24">
+  <svg fill="currentColor" focusable="false" height="24" width="24">
     <use href="${icons}#passport"></use>
   </svg>
 `;
@@ -54,7 +54,7 @@ const Component = () => (
 );
 ```
 
-You may modify SVG appearance by passing component props such as "fill" for changing color, or sizing with "height" and "width".
+You may modify SVG appearance by passing component props such as "fill" for changing color (defaults to "currentColor"), or sizing with "height" and "width".
 
 But if you prefer to use a sprite, feel free to (only once) inline it in your app using the `Icons` component:
 
@@ -74,7 +74,7 @@ Then refer to a fragment identifier directly without setting any sprite source, 
 
 ```jsx
 const IconPassport = () => (
-  <svg focusable="false" height="24" width="24">
+  <svg fill="currentColor" focusable="false" height="24" width="24">
     <use href="#passport"></use>
   </svg>
 );
