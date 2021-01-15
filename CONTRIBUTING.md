@@ -72,28 +72,58 @@ If you need to override SemVer behavior (not recommended):
 
 The last line of the script's log will give you the command you need to execute to push the commit and tag.
 
-### Release a major version (example)
+### Release the latest version
 
-In the following example we assume that the version 2.0.0 is being released:
+You will need `main` branch push permissions.
 
-1.  Ensure your tree is clean and run `git checkout main && git pull`.
+```sh
+# ensure tree is clean - WARNING: will delete pending changes
+git reset --hard
 
-2.  Create a new branch `release/2.x.x`, push to origin.
+# get all latest changes from remote
+git fetch --all --prune
 
-3.  Run `npm run release`, then follow instructions to push.
+# checkout latest 'main'
+git checkout main
+git pull
 
-4.  GitHub Actions will publish to registry automatically.
+# use automated release script
+npm run release
 
-5.  Create a pull request to merge the major version bump back to `main`.
+# push to let newly created tag trigger 'publish' GitHub Action
+git push --follow-tags
+```
 
-### Release a minor/patch version (example)
+### Release a non-latest minor/patch version (example)
 
-In the following example we assume that the version 1.0.1 is being released:
+You will need `release/*.x.x` branch push permissions.
 
-1.  Checkout branch `git checkout release/1.x.x`.
+In the following example we assume that:
 
-2.  Cherry-pick required fixes from `main`.
+- the latest version is 2.0.1
+- the version 1.2.1 is being released
+- we'll cherry-pick hotfixes from 2.0.1 onto 1.2.0
 
-3.  Run `npm run release`, then follow instructions to push.
+```sh
+# ensure tree is clean - WARNING: will delete pending changes
+git reset --hard
 
-4.  GitHub Actions will publish to registry automatically.
+# get all latest changes from remote
+git fetch --all --prune
+
+# checkout latest available version tag for v1.x.x
+git checkout v1.2.0
+
+# create release branch according to format
+git branch release/1.x.x
+
+# cherry-pick required fixes from 'main'
+git cherry-pick c6da29b
+# pick appropriate commit hashes and repeat as needed
+
+# use automated release script
+npm run release
+
+# push to let newly created tag trigger 'publish' GitHub Action
+git push --follow-tags -u origin release/1.x.x
+```

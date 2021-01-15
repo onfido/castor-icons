@@ -1,9 +1,6 @@
 name: Preview
 
-on:
-  pull_request:
-    branches-ignore:
-      - 'release/*.*.x'
+on: pull_request
 
 jobs:
   preview:
