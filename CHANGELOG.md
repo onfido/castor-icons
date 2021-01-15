@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/onfido/castor-icons/compare/v1.2.0...v2.0.0) (2021-01-15)
+
+### ⚠ BREAKING CHANGES
+
+- Use "grid-solid" instead of "grid" icon.
+
+### Features
+
+- add dots-horizontal-rounded ([#65](https://github.com/onfido/castor-icons/issues/65)) ([c8ee53a](https://github.com/onfido/castor-icons/commit/c8ee53a1264b63ba1094c1eda3634d3ec086aca2))
+- add grid-solid ([#63](https://github.com/onfido/castor-icons/issues/63)) ([e5db19a](https://github.com/onfido/castor-icons/commit/e5db19ab3861a84df50814a7606522e23515b624))
+- add list-ul ([#62](https://github.com/onfido/castor-icons/issues/62)) ([b0c1d0a](https://github.com/onfido/castor-icons/commit/b0c1d0a7a5fe7cee441dfc3880f87952be015210))
+- remove grid ([#66](https://github.com/onfido/castor-icons/issues/66)) ([68c3548](https://github.com/onfido/castor-icons/commit/68c3548a0fc9c5572e918cba77d36edf0616d04d))
+
 ## 1.2.0 (2021-01-13)
 
 ### Features
