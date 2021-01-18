@@ -24,9 +24,3 @@ jobs:
 
       - name: Build package
         run: npm run build
-
-      - name: Publish to npm
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          package: ./dist/package.json
-          token: ${{ secrets.NPM_TOKEN }}
