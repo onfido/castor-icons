@@ -72,9 +72,14 @@ If you need to override SemVer behavior (not recommended):
 
 The last line of the script's log will give you the command you need to execute to push the commit and tag.
 
-### Release the latest version
+### Release the latest version (example)
 
-You will need `main` branch push permissions.
+You will need `release/*.x.x` branch push permissions.
+
+In the following example we assume that:
+
+- the latest version is 1.0.0
+- the version 1.1.0 is being released
 
 ```sh
 # ensure tree is clean - WARNING: will delete pending changes
@@ -87,11 +92,25 @@ git fetch --all --prune
 git checkout main
 git pull
 
+# create and checkout release branch
+git checkout -b release/1.x.x
+
 # use automated release script
 npm run release
 
-# push to let newly created tag trigger 'publish' GitHub Action
-git push --follow-tags
+# push to trigger 'publish' GitHub Action
+git push --follow-tags origin release/1.x.x
+```
+
+Open a release PR to merge the version bump and the changelog back to `main` branch.
+
+```sh
+# once merged, checkout merge commit on 'main'
+git checkout c6da29b
+
+# move version tag
+git tag v1.1.0 -f
+git push origin v1.1.0 -f
 ```
 
 ### Release a non-latest minor/patch version (example)
@@ -114,16 +133,18 @@ git fetch --all --prune
 # checkout latest available version tag for v1.x.x
 git checkout v1.2.0
 
-# create release branch according to format
-git branch release/1.x.x
+# create and checkout release branch
+git checkout -b release/1.x.x
 
 # cherry-pick required fixes from 'main'
-git cherry-pick c6da29b
+git cherry-pick 64b6be1
 # pick appropriate commit hashes and repeat as needed
 
 # use automated release script
 npm run release
 
-# push to let newly created tag trigger 'publish' GitHub Action
+# push to trigger 'publish' GitHub Action
 git push --follow-tags -u origin release/1.x.x
 ```
+
+No need to open a PR to merge a non-latest release back to `main`, nor tags need to be moved.
