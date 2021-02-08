@@ -30,8 +30,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: public
-          CLEAN: true
-          SINGLE_COMMIT: true
+          branch: gh-pages
+          folder: public
+          clean: true
+          single-commit: true
