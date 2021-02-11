@@ -18,6 +18,7 @@
     "yarn": "\n\n\u001b[1;31m[ERROR]\u001b[0;32m Please use npm instead!\u001b[0m\n\n"
   },
   "scripts": {
+    "postinstall": "husky install",
     "build": "ts-node scripts/build.ts",
     "preview": "http-server -o",
     "lint": "concurrently npm:lint:*",
@@ -25,7 +26,7 @@
     "lint:es": "eslint . --ignore-path .gitignore --max-warnings 0",
     "lint:style": "stylelint '**/*.{css,html}' --ignore-path .gitignore --max-warnings 0",
     "lint:prettier": "prettier . --check --ignore-path .gitignore",
-    "release": "HUSKY_SKIP_HOOKS=true standard-version"
+    "release": "HUSKY=0 standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
