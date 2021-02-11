@@ -40,6 +40,7 @@
   "facebook": "node_modules/boxicons/svg/logos/bxl-facebook.svg",
   "file": "node_modules/boxicons/svg/regular/bx-file.svg",
   "filter": "node_modules/boxicons/svg/regular/bx-filter-alt.svg",
+  "flag": "src/svg/flag.svg",
   "folded-document": "src/svg/folded-document.svg",
   "font": "node_modules/boxicons/svg/regular/bx-font.svg",
   "fullscreen": "node_modules/boxicons/svg/regular/bx-fullscreen.svg",
