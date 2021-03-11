@@ -24,18 +24,11 @@ jobs:
         if: github.actor != 'dependabot[bot]' # allow long commit message body
         run: npm run lint:commit
 
-      - name: Run all other linters
-        uses: wearerequired/lint-action@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Enable and configure linters:
-          eslint: true
-          eslint_args: '--ignore-path .gitignore --max-warnings 0'
-          eslint_extensions: 'js,jsx,ts,tsx'
-          stylelint: true
-          stylelint_args: '--ignore-path .gitignore --max-warnings 0'
-          stylelint_extensions: 'css,html'
-          prettier: true
-          prettier_args: '--ignore-path .gitignore'
-          # Additionally configure action:
-          commit_message: 'style: fix code issues with ${linter}'
+      - name: Run stylelint
+        run: npm run lint:style
+
+      - name: Run ESLint
+        run: npm run lint:es
+
+      - name: Run Prettier
+        run: npm run lint:prettier
