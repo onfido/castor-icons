@@ -1,4 +1,6 @@
-# Castor Icons &middot; [![npm version](https://img.shields.io/npm/v/@onfido/castor-icons.svg?style=flat-square)](https://www.npmjs.com/package/@onfido/castor-icons)
+# Castor Icons
+
+[![npm version](https://img.shields.io/npm/v/@onfido/castor-icons.svg?style=flat-square)](https://www.npmjs.com/package/@onfido/castor-icons)
 
 This is _Castor_ addition providing a collection of selected [Boxicons](https://boxicons.com/) and custom icons.
 
