@@ -1,6 +1,7 @@
 # Castor Icons
 
-[![npm version](https://img.shields.io/npm/v/@onfido/castor-icons.svg?style=flat-square)](https://www.npmjs.com/package/@onfido/castor-icons)
+[![npm version](https://badgen.net/npm/v/@onfido/castor-icons)](https://www.npmjs.com/package/@onfido/castor-icons)
+[![Bundle size](https://badgen.net/bundlephobia/minzip/@onfido/castor-icons)](https://bundlephobia.com/result?p=@onfido/castor-icons)
 
 This is _Castor_ addition providing a collection of selected [Boxicons](https://boxicons.com/) and custom icons.
 
