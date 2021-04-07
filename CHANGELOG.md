@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/onfido/castor-icons/compare/v2.0.0...v2.1.0) (2021-04-07)
+
+### Features
+
+- add flag ([#94](https://github.com/onfido/castor-icons/issues/94)) ([914b7ad](https://github.com/onfido/castor-icons/commit/914b7ad9d1597351eeec45c5e24239ea01e8a250))
+- fill with "currentColor" by default ([#70](https://github.com/onfido/castor-icons/issues/70)) ([f88eb5b](https://github.com/onfido/castor-icons/commit/f88eb5b43488feff8a1c4d639663a6fc4e4bf95d)), closes [#69](https://github.com/onfido/castor-icons/issues/69)
+
 ## [2.0.0](https://github.com/onfido/castor-icons/compare/v1.2.0...v2.0.0) (2021-01-15)
 
 ### ⚠ BREAKING CHANGES
