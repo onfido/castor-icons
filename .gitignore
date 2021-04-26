@@ -8,7 +8,6 @@ Desktop.ini
 
 # Editor configuration
 .idea
-.vscode
 *.sublime-project
 *.sublime-workspace
 
