@@ -6,6 +6,7 @@
   "bar-chart-square": "node_modules/boxicons/svg/regular/bx-bar-chart-square.svg",
   "biometric-passport": "src/svg/biometric-passport.svg",
   "block": "node_modules/boxicons/svg/regular/bx-block.svg",
+  "bolt": "src/svg/bolt.svg",
   "book-bookmark": "node_modules/boxicons/svg/regular/bx-book-bookmark.svg",
   "book-open": "node_modules/boxicons/svg/regular/bx-book-open.svg",
   "bounce": "src/svg/bounce.svg",
