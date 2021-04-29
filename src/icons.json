@@ -43,6 +43,7 @@
   "filter": "node_modules/boxicons/svg/regular/bx-filter-alt.svg",
   "flag": "src/svg/flag.svg",
   "folded-document": "src/svg/folded-document.svg",
+  "folder": "node_modules/boxicons/svg/regular/bx-folder.svg",
   "font": "node_modules/boxicons/svg/regular/bx-font.svg",
   "fullscreen": "node_modules/boxicons/svg/regular/bx-fullscreen.svg",
   "gift": "node_modules/boxicons/svg/regular/bx-gift.svg",
