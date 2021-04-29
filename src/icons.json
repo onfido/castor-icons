@@ -94,6 +94,8 @@
   "security-feature": "src/svg/security-feature.svg",
   "shield-quarter": "node_modules/boxicons/svg/regular/bx-shield-quarter.svg",
   "show": "node_modules/boxicons/svg/regular/bx-show.svg",
+  "skip-next": "src/svg/skip-next.svg",
+  "skip-previous": "src/svg/skip-previous.svg",
   "skip-to-start": "src/svg/skip-to-start.svg",
   "sort-down": "src/svg/sort-down.svg",
   "sort-up": "src/svg/sort-up.svg",
