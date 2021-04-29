@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/onfido/castor-icons/compare/v2.1.0...v2.2.0) (2021-04-29)
+
+### Features
+
+- add bolt ([#186](https://github.com/onfido/castor-icons/issues/186)) ([3d6b721](https://github.com/onfido/castor-icons/commit/3d6b7212c8b32065feda912d6827f6d5a7062f8b))
+- add dots-vertical-rounded ([#181](https://github.com/onfido/castor-icons/issues/181)) ([20c356a](https://github.com/onfido/castor-icons/commit/20c356acaff9d05738eb43638e4e5fd461e2ce76))
+- add folder ([#185](https://github.com/onfido/castor-icons/issues/185)) ([832e5ed](https://github.com/onfido/castor-icons/commit/832e5edc1434d2aa0cc4e0f5c165b91caf2aa0ac))
+- add skip-next and skip-previous ([#188](https://github.com/onfido/castor-icons/issues/188)) ([eb5af23](https://github.com/onfido/castor-icons/commit/eb5af23d6279107f55b88710df3b3a2154abd192))
+- add skip-to-start ([#187](https://github.com/onfido/castor-icons/issues/187)) ([a2ff6ff](https://github.com/onfido/castor-icons/commit/a2ff6ffd21e627cd8bc95c4d0bb911a04370ce65))
+- add sort-up and sort-down ([#182](https://github.com/onfido/castor-icons/issues/182)) ([bffdef0](https://github.com/onfido/castor-icons/commit/bffdef01e4b66a4e3ca0f1eb505099d9a2028be0))
+- add stopwatch ([#184](https://github.com/onfido/castor-icons/issues/184)) ([4ee1512](https://github.com/onfido/castor-icons/commit/4ee1512cb37b16a08dd94c37cd01a98ac31ee146))
+
 ## [2.1.0](https://github.com/onfido/castor-icons/compare/v2.0.0...v2.1.0) (2021-04-07)
 
 ### Features
