@@ -94,6 +94,7 @@
   "show": "node_modules/boxicons/svg/regular/bx-show.svg",
   "sort-down": "src/svg/sort-down.svg",
   "sort-up": "src/svg/sort-up.svg",
+  "stopwatch": "node_modules/boxicons/svg/regular/bx-stopwatch.svg",
   "sync": "node_modules/boxicons/svg/regular/bx-sync.svg",
   "task": "node_modules/boxicons/svg/regular/bx-task.svg",
   "text": "node_modules/boxicons/svg/regular/bx-text.svg",
