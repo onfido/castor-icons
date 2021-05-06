@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/onfido/castor-icons/compare/v2.2.0...v2.3.0) (2021-05-06)
+
+### Features
+
+- add chevrons (up, down, left, right) ([#197](https://github.com/onfido/castor-icons/issues/197)) ([b37323b](https://github.com/onfido/castor-icons/commit/b37323bf967dc1f31159cc209779e6e65f255380))
+- add minus-circle ([#196](https://github.com/onfido/castor-icons/issues/196)) ([10af078](https://github.com/onfido/castor-icons/commit/10af078422045c06236eaa15f092f707c6c6dcb8))
+
 ## [2.2.0](https://github.com/onfido/castor-icons/compare/v2.1.0...v2.2.0) (2021-04-29)
 
 ### Features
