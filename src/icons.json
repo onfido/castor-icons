@@ -71,6 +71,7 @@
   "message-detail": "node_modules/boxicons/svg/regular/bx-message-detail.svg",
   "microphone-solid": "node_modules/boxicons/svg/solid/bxs-microphone.svg",
   "minus": "node_modules/boxicons/svg/regular/bx-minus.svg",
+  "minus-circle": "node_modules/boxicons/svg/regular/bx-minus-circle.svg",
   "notification": "node_modules/boxicons/svg/regular/bx-notification.svg",
   "paperclip": "node_modules/boxicons/svg/regular/bx-paperclip.svg",
   "passport": "src/svg/passport.svg",
