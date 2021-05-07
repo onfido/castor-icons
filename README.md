@@ -115,5 +115,3 @@ Please keep in mind that the [browser support](https://caniuse.com/#feat=css-mas
 - Be mindful of screen readers by applying the appropriate `aria-` attributes depending on each icon context and intent, for example `aria-hidden` or `aria-label`.
 
 - [Learn more about accessibility quirks](https://simplyaccessible.com/article/7-solutions-svgs/)
-
-[![Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=onfido-oss&utm_campaign=oss)
