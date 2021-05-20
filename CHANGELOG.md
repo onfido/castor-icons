@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/onfido/castor-icons/compare/v2.3.0...v2.4.0) (2021-05-20)
+
+### Features
+
+- add circle ([#225](https://github.com/onfido/castor-icons/issues/225)) ([18a8d48](https://github.com/onfido/castor-icons/commit/18a8d481e96a4c67aee529cc97ec22fc7b816571))
+- add polygon ([#224](https://github.com/onfido/castor-icons/issues/224)) ([3dcfcec](https://github.com/onfido/castor-icons/commit/3dcfcec150e3f314d1f9c07ba4bf60c72b61aace))
+- add square ([#226](https://github.com/onfido/castor-icons/issues/226)) ([2e481dc](https://github.com/onfido/castor-icons/commit/2e481dcbbfa5957199d0b7d8d9dbfe575196e027))
+
 ## [2.3.0](https://github.com/onfido/castor-icons/compare/v2.2.0...v2.3.0) (2021-05-06)
 
 ### Features
