@@ -1,5 +1,6 @@
 {
   "include": ["**/*"],
+  "exclude": ["node_modules/**/*", "dist/**/*"],
   "compilerOptions": {
     "alwaysStrict": true,
     "declaration": false,
@@ -7,7 +8,7 @@
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "strictNullChecks": true,
 
     "module": "esnext",
