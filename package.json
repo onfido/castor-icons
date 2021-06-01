@@ -24,6 +24,7 @@
     "lint": "concurrently npm:lint:*",
     "lint:commit": "commitlint --from origin/main --to HEAD --verbose",
     "lint:es": "eslint . --ignore-path .gitignore --max-warnings 0",
+    "lint:ts": "tsc --noEmit",
     "lint:style": "stylelint '**/*.{css,html}' --ignore-path .gitignore --max-warnings 0",
     "lint:prettier": "prettier . --check --ignore-path .gitignore",
     "release": "HUSKY=0 standard-version"
