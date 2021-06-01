@@ -50,6 +50,7 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.2.0",
+    "prettier-plugin-organize-imports": "^2.1.0",
     "standard-version": "^9.0.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^22.0.0",

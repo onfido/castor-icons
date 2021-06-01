@@ -1,15 +1,15 @@
 import { spawnSync } from 'child_process';
+import { loopWhile } from 'deasync';
 import {
+  appendFileSync,
+  copyFileSync,
   existsSync,
   mkdirSync,
   readFileSync,
   writeFileSync,
-  appendFileSync,
-  copyFileSync,
 } from 'fs';
-import { resolve, join } from 'path';
 import { glob } from 'glob';
-import { loopWhile } from 'deasync';
+import { join, resolve } from 'path';
 import SVGSpriter from 'svg-sprite';
 import icons from '../src/icons.json';
 
