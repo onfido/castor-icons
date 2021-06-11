@@ -21,6 +21,14 @@ jobs:
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
 
+      - name: Cache npm
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
       - name: Install Node dependencies
         run: npm ci --no-audit --no-optional
 
