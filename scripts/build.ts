@@ -6,6 +6,7 @@ import {
   existsSync,
   mkdirSync,
   readFileSync,
+  renameSync,
   writeFileSync,
 } from 'fs';
 import { glob } from 'glob';
@@ -21,8 +22,8 @@ mkdirSync(distDest);
 
 const svgDest = join(distDest, 'svg');
 !existsSync(svgDest) && mkdirSync(svgDest);
-const tsxDest = join(distDest, 'tsx');
-!existsSync(tsxDest) && mkdirSync(tsxDest);
+const tsDest = join(distDest, 'ts');
+!existsSync(tsDest) && mkdirSync(tsDest);
 
 const publicDest = join(rootPath, 'public');
 spawnSync('rm', ['-rf', publicDest], { shell: true });
@@ -100,33 +101,34 @@ loopWhile(() => !compilationDone);
 
 /**
  * Generates:
- * dist/tsx/*.tsx
+ * dist/ts/*.ts
  *
  * Creates React components out of the SVG assets.
  */
 
-spawnSync('svgr', [`--out-dir=${tsxDest}`, svgDest], { shell: true });
+spawnSync('svgr', [`--out-dir=${tsDest}`, svgDest], { shell: true });
+
+const tsIndexFileDest = join(tsDest, 'index.ts');
+renameSync(join(tsDest, 'index.tsx'), tsIndexFileDest);
 
 /**
  * Appends to:
- * dist/tsx/index.tsx
+ * dist/ts/index.ts
  *
  * Adds the list of icon names and the IconName type.
  */
 
-const tsxIndexFileDest = join(tsxDest, 'index.tsx');
+if (!existsSync(tsIndexFileDest))
+  throw new Error(`File ${tsIndexFileDest} does not exist`);
 
-if (!existsSync(tsxIndexFileDest))
-  throw new Error(`File ${tsxIndexFileDest} does not exist`);
-
-const tsxIndexFileContent = `
+const tsIndexFileContent = `
   export const iconNames = [${iconNames.map(
     (iconName) => `'${iconName}'`
   )}] as const;
   export type IconName = typeof iconNames[number];
 `;
 
-appendFileSync(tsxIndexFileDest, tsxIndexFileContent);
+appendFileSync(tsIndexFileDest, tsIndexFileContent);
 
 /**
  * Generates:
@@ -169,7 +171,7 @@ writeFileSync(
       )
     ),
     main: 'js/index.js',
-    types: 'tsx/index.tsx',
+    types: 'ts/index.ts',
     // all below needed to make sure that webpack can properly tree-shake
     type: 'module',
     module: 'js/index.js',
