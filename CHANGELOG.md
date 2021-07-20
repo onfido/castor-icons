@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/onfido/castor-icons/compare/v2.4.0...v2.5.0) (2021-07-20)
+
+### Features
+
+- add exclamation ([#298](https://github.com/onfido/castor-icons/issues/298)) ([a679ee5](https://github.com/onfido/castor-icons/commit/a679ee57f1940bb0387750714f63ef7eb5039351))
+
 ## [2.4.0](https://github.com/onfido/castor-icons/compare/v2.3.0...v2.4.0) (2021-05-20)
 
 ### Features
