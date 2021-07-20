@@ -42,6 +42,7 @@
   "edit": "node_modules/boxicons/svg/regular/bx-edit.svg",
   "error": "node_modules/boxicons/svg/regular/bx-error.svg",
   "error-circle": "node_modules/boxicons/svg/regular/bx-error-circle.svg",
+  "exclamation": "src/svg/exclamation.svg",
   "exit": "node_modules/boxicons/svg/regular/bx-exit.svg",
   "face-solid": "node_modules/boxicons/svg/solid/bxs-face.svg",
   "facebook": "node_modules/boxicons/svg/logos/bxl-facebook.svg",
