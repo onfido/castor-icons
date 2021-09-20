@@ -78,6 +78,7 @@
   "microphone-solid": "node_modules/boxicons/svg/solid/bxs-microphone.svg",
   "minus": "node_modules/boxicons/svg/regular/bx-minus.svg",
   "minus-circle": "node_modules/boxicons/svg/regular/bx-minus-circle.svg",
+  "move": "node_modules/boxicons/svg/regular/bx-move.svg",
   "notification": "node_modules/boxicons/svg/regular/bx-notification.svg",
   "paperclip": "node_modules/boxicons/svg/regular/bx-paperclip.svg",
   "passport": "src/svg/passport.svg",
