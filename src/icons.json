@@ -33,6 +33,7 @@
   "copy": "node_modules/boxicons/svg/regular/bx-copy.svg",
   "credit-card": "node_modules/boxicons/svg/regular/bx-credit-card.svg",
   "crop": "node_modules/boxicons/svg/regular/bx-crop.svg",
+  "crosshair": "node_modules/boxicons/svg/regular/bx-crosshair.svg",
   "diamond": "node_modules/boxicons/svg/regular/bx-diamond.svg",
   "directions": "node_modules/boxicons/svg/regular/bx-directions.svg",
   "dots-horizontal-rounded": "node_modules/boxicons/svg/regular/bx-dots-horizontal-rounded.svg",
