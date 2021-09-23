@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/onfido/castor-icons/compare/v2.5.0...v2.6.0) (2021-09-23)
+
+### Features
+
+- add crosshair ([#375](https://github.com/onfido/castor-icons/issues/375)) ([0564c76](https://github.com/onfido/castor-icons/commit/0564c769e6ee07e43d276d8ef0d7f47924d4e427))
+- add move ([#368](https://github.com/onfido/castor-icons/issues/368)) ([91b53d4](https://github.com/onfido/castor-icons/commit/91b53d4ec08603a4ab59d882504f42b8d0e155b7))
+
 ## [2.5.0](https://github.com/onfido/castor-icons/compare/v2.4.0...v2.5.0) (2021-07-20)
 
 ### Features
