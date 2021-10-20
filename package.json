@@ -46,7 +46,7 @@
     "deasync": "^0.1.21",
     "eslint": "^7.14.0",
     "glob": "^7.1.6",
-    "http-server": "^13.0.0",
+    "http-server": "^14.0.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.0.0",
     "prettier": "^2.2.0",
