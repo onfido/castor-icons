@@ -44,7 +44,7 @@
     "concurrently": "^6.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "deasync": "^0.1.21",
-    "eslint": "^7.14.0",
+    "eslint": "^8.0.1",
     "glob": "^7.1.6",
     "http-server": "^14.0.0",
     "husky": "^7.0.1",
