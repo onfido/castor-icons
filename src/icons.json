@@ -27,6 +27,7 @@
   "chevrons-up": "node_modules/boxicons/svg/regular/bx-chevrons-up.svg",
   "circle": "node_modules/boxicons/svg/regular/bx-circle.svg",
   "circle-solid": "src/svg/circle-solid.svg",
+  "circle-three-quarter-solid": "node_modules/boxicons/svg/solid/bxs-circle-three-quarter.svg",
   "code-curly": "node_modules/boxicons/svg/regular/bx-code-curly.svg",
   "cog": "node_modules/boxicons/svg/regular/bx-cog.svg",
   "collapse": "node_modules/boxicons/svg/regular/bx-collapse.svg",
