@@ -30,7 +30,7 @@
     "release": "HUSKY=0 standard-version"
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
+    "@commitlint/cli": "^16.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@svgr/cli": "^6.1.2",
     "@types/deasync": "^0.1.1",
