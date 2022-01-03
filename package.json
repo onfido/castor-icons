@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "^5.1.0",
     "boxicons": "^2.0.7",
     "commitizen": "^4.2.2",
-    "concurrently": "^6.0.0",
+    "concurrently": "^7.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "deasync": "^0.1.21",
     "eslint": "^8.0.1",
