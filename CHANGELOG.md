@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.8.1](https://github.com/onfido/castor-icons/compare/v2.8.0...v2.8.1) (2022-01-26)
+
+### Bug Fixes
+
+- build with react-jsx ([8875c0a](https://github.com/onfido/castor-icons/commit/8875c0a211874ed98b3986ef4c6d8c9d50a9ea0e))
+
 ## [2.8.0](https://github.com/onfido/castor-icons/compare/v2.7.0...v2.8.0) (2022-01-20)
 
 ### Features
