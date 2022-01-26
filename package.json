@@ -29,6 +29,9 @@
     "lint:prettier": "prettier . --check --ignore-path .gitignore",
     "release": "HUSKY=0 standard-version"
   },
+  "peerDependencies": {
+    "react": ">=17 || ^16.14 || ^15.7 || ^0.14.10"
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
