@@ -155,29 +155,32 @@ const packageFileData = JSON.parse(readFileSync(packageFileSrc).toString());
 
 writeFileSync(
   packageFileDest,
-  JSON.stringify({
-    ...Object.fromEntries(
-      Object.entries(packageFileData).filter(([key]) =>
-        [
-          'name',
-          'version',
-          'description',
-          'author',
-          'license',
-          'repository',
-          'bugs',
-          'homepage',
-          'peerDependencies',
-        ].includes(key)
-      )
-    ),
-    main: 'js/index.js',
-    types: 'ts/index.ts',
-    // all below needed to make sure that webpack can properly tree-shake
-    type: 'module',
-    module: 'js/index.js',
-    sideEffects: false,
-  })
+  JSON.stringify(
+    {
+      ...Object.fromEntries(
+        Object.entries(packageFileData).filter(([key]) =>
+          [
+            'name',
+            'version',
+            'description',
+            'author',
+            'license',
+            'repository',
+            'bugs',
+            'homepage',
+            'main',
+            'types',
+            'module',
+            'sideEffects',
+            'peerDependencies',
+          ].includes(key)
+        )
+      ),
+      type: 'module',
+    },
+    null,
+    2
+  )
 );
 
 /**

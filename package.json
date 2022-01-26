@@ -12,6 +12,10 @@
     "url": "https://github.com/onfido/castor-icons/issues"
   },
   "homepage": "https://github.com/onfido/castor-icons",
+  "main": "js/index.js",
+  "types": "ts/index.ts",
+  "module": "js/index.js",
+  "sideEffects": false,
   "engines": {
     "node": ">= 14",
     "npm": ">= 7",
