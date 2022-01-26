@@ -1,5 +1,4 @@
 {
-  "svgo": false,
   "memo": true,
   "typescript": true,
   "svgProps": { "fill": "currentColor", "focusable": false }
