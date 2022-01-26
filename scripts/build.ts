@@ -167,6 +167,7 @@ writeFileSync(
           'repository',
           'bugs',
           'homepage',
+          'peerDependencies',
         ].includes(key)
       )
     ),
