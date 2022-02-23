@@ -6,7 +6,6 @@ import {
   existsSync,
   mkdirSync,
   readFileSync,
-  renameSync,
   writeFileSync,
 } from 'fs';
 import { glob } from 'glob';
@@ -108,19 +107,12 @@ loopWhile(() => !compilationDone);
 
 spawnSync('svgr', [`--out-dir=${tsDest}`, svgDest], { shell: true });
 
-const tsIndexFileDest = join(tsDest, 'index.ts');
-renameSync(join(tsDest, 'index.tsx'), tsIndexFileDest);
-
 /**
  * Appends to:
  * dist/ts/index.ts
  *
  * Adds the list of icon names and the IconName type.
  */
-
-if (!existsSync(tsIndexFileDest))
-  throw new Error(`File ${tsIndexFileDest} does not exist`);
-
 const tsIndexFileContent = `
   export const iconNames = [${iconNames.map(
     (iconName) => `'${iconName}'`
@@ -128,7 +120,7 @@ const tsIndexFileContent = `
   export type IconName = typeof iconNames[number];
 `;
 
-appendFileSync(tsIndexFileDest, tsIndexFileContent);
+appendFileSync(join(tsDest, 'index.ts'), tsIndexFileContent);
 
 /**
  * Generates:
