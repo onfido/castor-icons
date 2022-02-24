@@ -5,6 +5,7 @@ import {
   copyFileSync,
   existsSync,
   mkdirSync,
+  readdirSync,
   readFileSync,
   writeFileSync,
 } from 'fs';
@@ -100,12 +101,27 @@ loopWhile(() => !compilationDone);
 
 /**
  * Generates:
- * dist/ts/*.ts
+ * dist/ts/*.tsx
  *
  * Creates React components out of the SVG assets.
  */
 
 spawnSync('svgr', [`--out-dir=${tsDest}`, svgDest], { shell: true });
+
+// 'react-jsx' factory workaround: for TypeScript users with other 'jsx'
+// factories such as 'react', necessary until we introduce a breaking change
+// that declares a dependency on that factory or find a more elegant solution
+readdirSync(tsDest)
+  .filter((f) => f !== 'index.ts')
+  .forEach((file) =>
+    appendFileSync(
+      join(tsDest, file),
+      `
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+declare const React: unknown;
+`
+    )
+  );
 
 /**
  * Appends to:
@@ -114,10 +130,10 @@ spawnSync('svgr', [`--out-dir=${tsDest}`, svgDest], { shell: true });
  * Adds the list of icon names and the IconName type.
  */
 const tsIndexFileContent = `
-  export const iconNames = [${iconNames.map(
-    (iconName) => `'${iconName}'`
-  )}] as const;
-  export type IconName = typeof iconNames[number];
+export const iconNames = [${iconNames.map(
+  (iconName) => `'${iconName}'`
+)}] as const;
+export type IconName = typeof iconNames[number];
 `;
 
 appendFileSync(join(tsDest, 'index.ts'), tsIndexFileContent);
