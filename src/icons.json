@@ -126,6 +126,7 @@
   "user-check": "node_modules/boxicons/svg/regular/bx-user-check.svg",
   "user-circle": "node_modules/boxicons/svg/regular/bx-user-circle.svg",
   "user-plus": "node_modules/boxicons/svg/regular/bx-user-plus.svg",
+  "video": "node_modules/boxicons/svg/regular/bx-video.svg",
   "videos": "src/svg/videos.svg",
   "volume": "node_modules/boxicons/svg/regular/bx-volume.svg",
   "volume-full": "node_modules/boxicons/svg/regular/bx-volume-full.svg",
