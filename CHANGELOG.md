@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.9.0](https://github.com/onfido/castor-icons/compare/v2.8.2...v2.9.0) (2022-03-21)
+
+### Features
+
+- add video ([#589](https://github.com/onfido/castor-icons/issues/589)) ([1d2b6b8](https://github.com/onfido/castor-icons/commit/1d2b6b8812b4fb818969a99704a658005643d7a2))
+
 ### [2.8.2](https://github.com/onfido/castor-icons/compare/v2.8.1...v2.8.2) (2022-02-24)
 
 ### Bug Fixes
