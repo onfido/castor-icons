@@ -54,7 +54,7 @@
     "eslint": "^8.0.1",
     "glob": "^8.0.1",
     "http-server": "^14.0.0",
-    "husky": "^7.0.1",
+    "husky": "^8.0.0",
     "lint-staged": "^12.0.2",
     "postcss-html": "^1.0.1",
     "prettier": "^2.2.0",
