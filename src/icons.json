@@ -12,6 +12,7 @@
   "bounce": "src/svg/bounce.svg",
   "briefcase": "node_modules/boxicons/svg/regular/bx-briefcase-alt.svg",
   "bulb": "node_modules/boxicons/svg/regular/bx-bulb.svg",
+  "calendar": "node_modules/boxicons/svg/regular/bx-calendar.svg",
   "camera": "node_modules/boxicons/svg/regular/bx-camera.svg",
   "camera-solid": "node_modules/boxicons/svg/solid/bxs-camera.svg",
   "car-solid": "node_modules/boxicons/svg/solid/bxs-car.svg",
