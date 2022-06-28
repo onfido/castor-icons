@@ -50,6 +50,7 @@
   "face-solid": "node_modules/boxicons/svg/solid/bxs-face.svg",
   "facebook": "node_modules/boxicons/svg/logos/bxl-facebook.svg",
   "file": "node_modules/boxicons/svg/regular/bx-file.svg",
+  "file-pdf": "node_modules/boxicons/svg/solid/bxs-file-pdf.svg",
   "filter": "node_modules/boxicons/svg/regular/bx-filter-alt.svg",
   "flag": "src/svg/flag.svg",
   "folded-document": "src/svg/folded-document.svg",
