@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.11.0](https://github.com/onfido/castor-icons/compare/v2.10.0...v2.11.0) (2022-06-28)
+
+### Features
+
+- add file-pdf icon ([#715](https://github.com/onfido/castor-icons/issues/715)) ([aa5e0db](https://github.com/onfido/castor-icons/commit/aa5e0db7e5ba3185239aadc5ea08b9d607c17d8a))
+
 ## [2.10.0](https://github.com/onfido/castor-icons/compare/v2.9.0...v2.10.0) (2022-06-14)
 
 ### Features
