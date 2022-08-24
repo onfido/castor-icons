@@ -91,6 +91,7 @@
   "play": "node_modules/boxicons/svg/regular/bx-play.svg",
   "play-store": "node_modules/boxicons/svg/logos/bxl-play-store.svg",
   "plus": "node_modules/boxicons/svg/regular/bx-plus.svg",
+  "plus-circle": "node_modules/boxicons/svg/regular/bx-plus-circle.svg",
   "polygon": "node_modules/boxicons/svg/regular/bx-shape-polygon.svg",
   "pulse": "node_modules/boxicons/svg/regular/bx-pulse.svg",
   "question-mark": "node_modules/boxicons/svg/regular/bx-question-mark.svg",
