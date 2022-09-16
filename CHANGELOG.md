@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.13.0](https://github.com/onfido/castor-icons/compare/v2.12.0...v2.13.0) (2022-09-16)
+
+### Features
+
+- clipboard-check icon ([#809](https://github.com/onfido/castor-icons/issues/809)) ([df118ae](https://github.com/onfido/castor-icons/commit/df118ae8660458e278750d879bc48e65834d8277))
+
 ## [2.12.0](https://github.com/onfido/castor-icons/compare/v2.11.0...v2.12.0) (2022-08-24)
 
 ### Features
