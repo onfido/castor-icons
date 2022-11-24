@@ -64,6 +64,7 @@
   "google": "node_modules/boxicons/svg/logos/bxl-google.svg",
   "grid-solid": "node_modules/boxicons/svg/solid/bxs-grid.svg",
   "group": "node_modules/boxicons/svg/regular/bx-group.svg",
+  "help-circle": "node_modules/boxicons/svg/regular/bx-help-circle.svg",
   "hide": "node_modules/boxicons/svg/regular/bx-hide.svg",
   "home": "node_modules/boxicons/svg/regular/bx-home.svg",
   "id-card": "node_modules/boxicons/svg/regular/bx-id-card.svg",
