@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.16.0](https://github.com/onfido/castor-icons/compare/v2.15.0...v2.16.0) (2022-11-24)
+
+### Features
+
+- add help-circle ([#887](https://github.com/onfido/castor-icons/issues/887)) ([52eb75e](https://github.com/onfido/castor-icons/commit/52eb75e4dd328087cae1948ce19d511b0c1ae765))
+- add transfer ([#888](https://github.com/onfido/castor-icons/issues/888)) ([63e2802](https://github.com/onfido/castor-icons/commit/63e2802058dcefe57c6ff615dfb9b6c8530ca00e))
+
 ## [2.15.0](https://github.com/onfido/castor-icons/compare/v2.13.0...v2.15.0) (2022-10-19)
 
 ### Features
