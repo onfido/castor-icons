@@ -87,6 +87,7 @@
   "minus-circle": "node_modules/boxicons/svg/regular/bx-minus-circle.svg",
   "move": "node_modules/boxicons/svg/regular/bx-move.svg",
   "notification": "node_modules/boxicons/svg/regular/bx-notification.svg",
+  "palette": "node_modules/boxicons/svg/regular/bx-palette.svg",
   "paperclip": "node_modules/boxicons/svg/regular/bx-paperclip.svg",
   "passport": "src/svg/passport.svg",
   "pause": "node_modules/boxicons/svg/regular/bx-pause.svg",
