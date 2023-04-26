@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.17.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.17.0) (2023-04-26)
+
+### Features
+
+- add qr and palette icons ([#1027](https://github.com/onfido/castor-icons/issues/1027)) ([8305ae4](https://github.com/onfido/castor-icons/commit/8305ae48e244409f9ccbcce2362e3166c689b174))
+
 ## [2.17.0](https://github.com/onfido/castor-icons/compare/v2.15.0...v2.16.0) (2023-04-26)
 
 - add palette icon ([#1027](https://github.com/onfido/castor-icons/issues/887)) ([039984a](https://github.com/onfido/castor-icons/commit/039984a31634d85601d3f5d77725b6d3d284fc3d))
