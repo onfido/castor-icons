@@ -1,6 +1,7 @@
 {
   "alarm": "node_modules/boxicons/svg/regular/bx-alarm.svg",
   "apple": "node_modules/boxicons/svg/logos/bxl-apple.svg",
+  "android": "src/svg/android.svg",
   "archive-out": "node_modules/boxicons/svg/regular/bx-archive-out.svg",
   "arrow-back": "node_modules/boxicons/svg/regular/bx-arrow-back.svg",
   "bar-chart": "node_modules/boxicons/svg/regular/bx-bar-chart-alt-2.svg",
@@ -38,6 +39,7 @@
   "credit-card": "node_modules/boxicons/svg/regular/bx-credit-card.svg",
   "crop": "node_modules/boxicons/svg/regular/bx-crop.svg",
   "crosshair": "node_modules/boxicons/svg/regular/bx-crosshair.svg",
+  "devices": "src/svg/devices.svg",
   "diamond": "node_modules/boxicons/svg/regular/bx-diamond.svg",
   "directions": "node_modules/boxicons/svg/regular/bx-directions.svg",
   "dots-horizontal-rounded": "node_modules/boxicons/svg/regular/bx-dots-horizontal-rounded.svg",
@@ -61,6 +63,7 @@
   "fullscreen": "node_modules/boxicons/svg/regular/bx-fullscreen.svg",
   "gift": "node_modules/boxicons/svg/regular/bx-gift.svg",
   "glasses": "node_modules/boxicons/svg/regular/bx-glasses.svg",
+  "globe": "src/svg/globe.svg",
   "google": "node_modules/boxicons/svg/logos/bxl-google.svg",
   "grid-solid": "node_modules/boxicons/svg/solid/bxs-grid.svg",
   "group": "node_modules/boxicons/svg/regular/bx-group.svg",
