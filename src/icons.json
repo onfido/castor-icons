@@ -124,6 +124,7 @@
   "task": "node_modules/boxicons/svg/regular/bx-task.svg",
   "text": "node_modules/boxicons/svg/regular/bx-text.svg",
   "time": "node_modules/boxicons/svg/regular/bx-time.svg",
+  "timer": "node_modules/boxicons/svg/regular/bx-timer.svg",
   "transfer": "node_modules/boxicons/svg/regular/bx-transfer.svg",
   "trash": "node_modules/boxicons/svg/regular/bx-trash.svg",
   "trending-down": "node_modules/boxicons/svg/regular/bx-trending-down.svg",
