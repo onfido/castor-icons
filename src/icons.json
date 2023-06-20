@@ -109,6 +109,7 @@
   "reset": "node_modules/boxicons/svg/regular/bx-reset.svg",
   "residence-permit": "src/svg/residence-permit.svg",
   "revision": "node_modules/boxicons/svg/regular/bx-revision.svg",
+  "rocket": "node_modules/boxicons/svg/regular/bx-rocket.svg",
   "rotate-left": "node_modules/boxicons/svg/regular/bx-rotate-left.svg",
   "rotate-right": "node_modules/boxicons/svg/regular/bx-rotate-right.svg",
   "scan": "node_modules/boxicons/svg/regular/bx-scan.svg",
