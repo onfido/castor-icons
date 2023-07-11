@@ -1,6 +1,6 @@
 {
   "name": "@onfido/castor-icons",
-  "version": "2.17.0",
+  "version": "2.19.0",
   "description": "Collection of icons for Castor.",
   "author": "Onfido",
   "license": "Apache-2.0",
@@ -43,7 +43,7 @@
     "@types/deasync": "^0.1.1",
     "@types/glob": "^8.0.0",
     "@types/node": "^18.0.0",
-    "@types/svg-sprite": "0.0.33",
+    "@types/svg-sprite": "0.0.34",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "boxicons": "^2.0.7",
