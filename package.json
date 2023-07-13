@@ -42,7 +42,7 @@
     "@svgr/cli": "^8.0.1",
     "@types/deasync": "^0.1.1",
     "@types/glob": "^8.0.0",
-    "@types/node": "^18.0.0",
+    "@types/node": "^20.4.2",
     "@types/svg-sprite": "0.0.34",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
