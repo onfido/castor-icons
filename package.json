@@ -57,7 +57,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "postcss-html": "^1.0.1",
-    "prettier": "^2.2.0",
+    "prettier": "^3.0.1",
     "prettier-plugin-organize-imports": "^3.0.0",
     "standard-version": "^9.0.0",
     "stylelint": "^14.0.0",
