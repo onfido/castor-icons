@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.20.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.20.0) (2023-08-17)
+
+### Features
+
+- add data-castor-icon=true to all icons ([#1129](https://github.com/onfido/castor-icons/issues/1129)) ([7e136d7](https://github.com/onfido/castor-icons/commit/7e136d7f3b9c662dff1518c9133208b8f06f67c2))
+- add qr and palette icons ([#1027](https://github.com/onfido/castor-icons/issues/1027)) ([8305ae4](https://github.com/onfido/castor-icons/commit/8305ae48e244409f9ccbcce2362e3166c689b174))
+- **icons:** add new icons ([#1041](https://github.com/onfido/castor-icons/issues/1041)) ([82d34c2](https://github.com/onfido/castor-icons/commit/82d34c21067c21c3a28ddd1267a0ec88a43db7c7))
+- **icons:** add new icons ([#1043](https://github.com/onfido/castor-icons/issues/1043)) ([1ac33a7](https://github.com/onfido/castor-icons/commit/1ac33a7d1d9232d6a5c2ca0d58b30c909cc4ac70))
+
 ## [2.19.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.19.0) (2023-06-21)
 
 ### Features
