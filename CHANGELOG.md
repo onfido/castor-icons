@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.20.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.20.0) (2023-08-17)
+
+### Features
+
+- add data-castor-icon=true to all icons ([#1129](https://github.com/onfido/castor-icons/issues/1129)) ([7e136d7](https://github.com/onfido/castor-icons/commit/7e136d7f3b9c662dff1518c9133208b8f06f67c2))
+
 ## [2.19.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.19.0) (2023-06-21)
 
 ### Features
