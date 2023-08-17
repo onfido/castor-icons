@@ -1,5 +1,9 @@
 {
   "memo": true,
   "typescript": true,
-  "svgProps": { "fill": "currentColor", "focusable": false }
+  "svgProps": {
+    "fill": "currentColor",
+    "focusable": false,
+    "data-castor-icon": true
+  }
 }
