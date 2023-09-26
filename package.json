@@ -43,7 +43,7 @@
     "@types/deasync": "^0.1.1",
     "@types/glob": "^8.0.0",
     "@types/node": "^18.0.0",
-    "@types/svg-sprite": "0.0.34",
+    "@types/svg-sprite": "0.0.35",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "boxicons": "^2.0.7",
