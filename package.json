@@ -55,7 +55,7 @@
     "glob": "^10.3.3",
     "http-server": "^14.0.0",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^15.0.2",
     "postcss-html": "^1.0.1",
     "prettier": "^2.2.0",
     "prettier-plugin-organize-imports": "^3.0.0",
