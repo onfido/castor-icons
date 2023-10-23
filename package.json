@@ -37,7 +37,7 @@
     "react": ">=17 || ^16.14 || ^15.7 || ^0.14.10"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
+    "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^17.0.0",
     "@svgr/cli": "^8.0.1",
     "@types/deasync": "^0.1.1",
