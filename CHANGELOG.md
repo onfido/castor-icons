@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.23.1](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.23.1) (2024-03-07)
+
+### Features
+
+- add dashboard and folder-plus icons ([#1131](https://github.com/onfido/castor-icons/issues/1131)) ([479def6](https://github.com/onfido/castor-icons/commit/479def6dee9b2eb0717245c4debb028e7da78b5a))
+- add data-castor-icon=true to all icons ([#1129](https://github.com/onfido/castor-icons/issues/1129)) ([7e136d7](https://github.com/onfido/castor-icons/commit/7e136d7f3b9c662dff1518c9133208b8f06f67c2))
+- add new icon info-circle-solid ([#1159](https://github.com/onfido/castor-icons/issues/1159)) ([91eb27d](https://github.com/onfido/castor-icons/commit/91eb27ddf5b78f00bc456fc7727eb8e435e7cdf0))
+- add qr and palette icons ([#1027](https://github.com/onfido/castor-icons/issues/1027)) ([8305ae4](https://github.com/onfido/castor-icons/commit/8305ae48e244409f9ccbcce2362e3166c689b174))
+- **icons:** add new icons ([#1041](https://github.com/onfido/castor-icons/issues/1041)) ([82d34c2](https://github.com/onfido/castor-icons/commit/82d34c21067c21c3a28ddd1267a0ec88a43db7c7))
+- **icons:** add new icons ([#1043](https://github.com/onfido/castor-icons/issues/1043)) ([1ac33a7](https://github.com/onfido/castor-icons/commit/1ac33a7d1d9232d6a5c2ca0d58b30c909cc4ac70))
+- new icons ([f296007](https://github.com/onfido/castor-icons/commit/f296007bca0ab7e4c8857ee7823bb49d6a222d03))
+
 ## [2.23.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.23.0) (2024-02-28)
 
 ### Features
