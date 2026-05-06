@@ -22,6 +22,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Cache npm
         uses: actions/cache@v4
@@ -38,7 +39,6 @@ jobs:
         run: npm run build
 
       - name: Publish to npm
-        uses: JS-DevTools/npm-publish@v1.4.3
-        with:
-          package: ./dist/package.json
-          token: ${{ secrets.NPM_TOKEN }}
+        run: npm publish ./dist --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
