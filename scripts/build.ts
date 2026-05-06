@@ -176,6 +176,7 @@ writeFileSync(
             'repository',
             'bugs',
             'homepage',
+            'publishConfig',
             'main',
             'types',
             'module',
