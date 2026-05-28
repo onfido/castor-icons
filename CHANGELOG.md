@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.25.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.25.0) (2026-05-28)
+
+### Features
+
+- add dashboard and folder-plus icons ([#1131](https://github.com/onfido/castor-icons/issues/1131)) ([479def6](https://github.com/onfido/castor-icons/commit/479def6dee9b2eb0717245c4debb028e7da78b5a))
+- add data-castor-icon=true to all icons ([#1129](https://github.com/onfido/castor-icons/issues/1129)) ([7e136d7](https://github.com/onfido/castor-icons/commit/7e136d7f3b9c662dff1518c9133208b8f06f67c2))
+- add new icon info-circle-solid ([#1159](https://github.com/onfido/castor-icons/issues/1159)) ([91eb27d](https://github.com/onfido/castor-icons/commit/91eb27ddf5b78f00bc456fc7727eb8e435e7cdf0))
+- add new icons ([#1234](https://github.com/onfido/castor-icons/issues/1234)) ([b6ebdfd](https://github.com/onfido/castor-icons/commit/b6ebdfd00f1b8c4e4c194543813a23e7a61ad662))
+- add qr and palette icons ([#1027](https://github.com/onfido/castor-icons/issues/1027)) ([8305ae4](https://github.com/onfido/castor-icons/commit/8305ae48e244409f9ccbcce2362e3166c689b174))
+- **adding new icons:** add browser specific icons and missing linux icon ([1ff80ec](https://github.com/onfido/castor-icons/commit/1ff80eccf61789e127a24c3a619ed2af4a0399d9))
+- **icons:** add new icons ([#1041](https://github.com/onfido/castor-icons/issues/1041)) ([82d34c2](https://github.com/onfido/castor-icons/commit/82d34c21067c21c3a28ddd1267a0ec88a43db7c7))
+- **icons:** add new icons ([#1043](https://github.com/onfido/castor-icons/issues/1043)) ([1ac33a7](https://github.com/onfido/castor-icons/commit/1ac33a7d1d9232d6a5c2ca0d58b30c909cc4ac70))
+- new icons ([f296007](https://github.com/onfido/castor-icons/commit/f296007bca0ab7e4c8857ee7823bb49d6a222d03))
+- **studio-3110:** add new code-block and send icons ([#1229](https://github.com/onfido/castor-icons/issues/1229)) ([d76c716](https://github.com/onfido/castor-icons/commit/d76c7160392b1bffa1f251fecafe11e0edf943e3))
+- update npm publish ci job ([49e6eba](https://github.com/onfido/castor-icons/commit/49e6eba9eec0b2822d3f6a6f65ed589f24b30b62))
+- video-broken icon ([210b276](https://github.com/onfido/castor-icons/commit/210b27682587569d9940be8cd34b805d34b2deb7))
+
+### Bug Fixes
+
+- attempt to deploy to npm ([110d19c](https://github.com/onfido/castor-icons/commit/110d19c7871994c6c2b5f0c9752e4f6649596bc7))
+- icon path ([47e2597](https://github.com/onfido/castor-icons/commit/47e25974d62eda529e5b31568e1f8a8a522e5693))
+- upgrade cache to v4 ([71179ec](https://github.com/onfido/castor-icons/commit/71179ec797501f7bd6d07615b210cb8f3811f0f1))
+
 ## [2.24.0](https://github.com/onfido/castor-icons/compare/v2.16.0...v2.24.0) (2026-05-06)
 
 ### Features
